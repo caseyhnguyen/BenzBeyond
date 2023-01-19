@@ -14,10 +14,10 @@ We're all available at the Stanford Slack organization, and via email!
 
 |   **Name**    |       **Email**       | **SuNET ID** |                                            **Photo**                                            |
 | :-----------: | :-------------------: | :----------: | :---------------------------------------------------------------------------------------------: |
-|  Audrey Lee  | <name>@stanford.edu  | <SUID>  | <img src="img/profile/<name>.jpg" alt="<name>'s Profile Photo" width="150" height="150" /> |
-| <Casey Nguyen> |  <name>@stanford.edu  |   <SUID>    |  <img src="img/profile/<name>.jpg" alt="<name>'s Profile Photo" width="150" height="150" />   |
-|   <Ricky Thai>   | <name>@stanford.edu |  <SUID>    |   <img src="img/profile/<name>.jpg" alt="<name>'s Profile Photo" width="150" height="150" />   |
-|  <Yuer Zhou>   | <name>@stanford.edu  |   <SUID>    |   <img src="img/profile/<name>.jpg" alt="<name>'s Profile Photo" width="150" height="150" />    |
+|  Audrey Lee  | alee22@stanford.edu  | <alee22>  | <img src="img/profile/<name>.jpg" alt="<name>'s Profile Photo" width="150" height="150" /> |
+| Casey Nguyen |  caseyhn@stanford.edu  |   <caseyhn>    |  <img src="img/profile/<name>.jpg" alt="<name>'s Profile Photo" width="150" height="150" />   |
+|   Ricky Thai   | rickay02@stanford.edu |  <rickay02>    |   <img src="img/profile/<name>.jpg" alt="<name>'s Profile Photo" width="150" height="150" />   |
+|  Yuer Zhou   | zye98@stanford.edu  |   <zye98>    |   <img src="img/profile/<name>.jpg" alt="<name>'s Profile Photo" width="150" height="150" />    |
 
 ## Team Skills Matrix
 
