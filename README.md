@@ -14,7 +14,7 @@ We're all available at the Stanford Slack organization, and via email!
 
 |   **Name**    |       **Email**       | **SuNET ID** |                                            **Photo**                                            |
 | :-----------: | :-------------------: | :----------: | :---------------------------------------------------------------------------------------------: |
-|  Audrey Lee  | alee22@stanford.edu  | alee22  | <img src="https://github.com/Audrey-Lee88/audrey-lee88.github.io/blob/master/images/AudreyLee.jpg" alt="Audrey's Profile Photo" width="150" height="150" /> |
+|  Audrey Lee  | alee22@stanford.edu  | alee22  | <img src="https://github.com/Audrey-Lee88/audrey-lee88.github.io/blob/master/images/AudreyLee_square.jpg" alt="Audrey's Profile Photo" width="150" height="150" /> |
 | Casey Nguyen |  caseyhn@stanford.edu  |   caseyhn    |  <img src="img/profile/Casey.jpg" alt="Casey's Profile Photo" width="150" height="150" />   |
 |   Ricky Thai   | rickay02@stanford.edu |  rickay02    |   <img src="https://github.com/rickythai125/rickythai125.github.io/blob/main/6415014_Thai_KAVTP_Photo.JPG" alt="Ricky's Profile Photo" width="150" height="150" />   |
 |  Yuer Zhou   | zye98@stanford.edu  |   zye98    |   <img src="img/profile/Yuer.jpg" alt="Yuer's Profile Photo" width="150" height="150" />    |
