@@ -4,7 +4,7 @@
 
 [Team Playlist](<link here>)
 
-[Documentation at the GitHub Wiki](<link here>)
+[Documentation at the GitHub Wiki](<https://github.com/cs210/2023-Mercedes3/wiki>)
 
 [Code Repository](<link here>)
 
