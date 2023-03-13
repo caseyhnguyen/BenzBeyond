@@ -5,7 +5,7 @@ using UnityEngine;
 public class MoveCube : MonoBehaviour
 {
     float speed = 10f;
-    float turnSpeed = 100f;
+    float turnSpeed = 110f;
     
     void Start()
     {
@@ -23,7 +23,7 @@ public class MoveCube : MonoBehaviour
         
     }
     
-    void OnTriggerEnter(Collider col) {
+    void OnTriggerStay(Collider col) {
         if (col.gameObject.name == "RoadTurn_1") {
         	print("ENTER");
         	transform.Rotate(0f, Time.deltaTime * -turnSpeed, 0f);
