@@ -28,6 +28,18 @@ public class MoveCube : MonoBehaviour
         	print("ENTER");
         	transform.Rotate(0f, Time.deltaTime * -turnSpeed, 0f);
         }
+        if (col.gameObject.name == "RoadTurn_2") {
+        	print("ENTER");
+        	transform.Rotate(0f, Time.deltaTime * -(turnSpeed-20f), 0f);
+        }
+        if (col.gameObject.name == "RoadTurn_3") {
+        	print("ENTER");
+        	transform.Rotate(0f, Time.deltaTime * -(turnSpeed-40f), 0f);
+        }
+        if (col.gameObject.name == "RoadTurn_4") {
+        	print("ENTER");
+        	transform.Rotate(0f, Time.deltaTime * -(turnSpeed-20f), 0f);
+        }
     }
     
     
