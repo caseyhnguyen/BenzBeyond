@@ -736,6 +736,7 @@ PlayerSettings:
   webGLDecompressionFallback: 0
   webGLPowerPreference: 2
   scriptingDefineSymbols:
+    Standalone: EASYROADS3D_PRO
     iPhone: EASYROADS3D_PRO
   additionalCompilerArguments: {}
   platformArchitecture:
