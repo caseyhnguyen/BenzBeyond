@@ -1750,7 +1750,7 @@ struct ARTrackedObjectsChangedEventArgs_t378A63B91AD22EA4BA9C68805C72DDA4B7C0150
 struct ARWorldMap_t1A4FC9AEB262271C972EEF0D8EE07F5FB873A30F 
 {
 	// System.Int32 UnityEngine.XR.ARKit.ARWorldMap::<nativeHandle>k__BackingField
-	int32_t ___U3CnativeHandleU3Ek__BackingField_0;
+	int32_t ___U3CnativeHandleU3Ek__BackingField_1;
 };
 
 // UnityEngine.UIElements.UIR.Alloc

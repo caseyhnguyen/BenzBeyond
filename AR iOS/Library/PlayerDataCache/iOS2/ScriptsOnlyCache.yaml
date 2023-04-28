@@ -6,7 +6,6 @@ ScriptsOnlyBuild:
     - ARLocation.ARLocationOrientation
     - ARLocation.ARLocationProvider
     - ARLocation.PrefabDatabase
-    - ARLocation.Utils.RotateObject
     - ARLocation.WebMapLoader
     Unity.InputSystem.dll:
     - UnityEngine.InputSystem.InputSettings
@@ -14,8 +13,6 @@ ScriptsOnlyBuild:
     - UnityEngine.InputSystem.RemoteInputPlayerConnection
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    Unity.Timeline.Editor.dll:
-    - TimelineProjectSettings
     Unity.Tutorials.Core.Editor.dll:
     - Unity.Tutorials.Core.Editor.TutorialContainer
     - Unity.Tutorials.Core.Editor.TutorialWindow
@@ -32,6 +29,8 @@ ScriptsOnlyBuild:
     - UnityEngine.XR.ARFoundation.ARSessionOrigin
     Unity.XR.ARKit.Editor.dll:
     - UnityEditor.XR.ARKit.ARKitSettings
+    Unity.XR.ARKit.dll:
+    - UnityEngine.XR.ARKit.ARKitLoader
     Unity.XR.Management.Editor.dll:
     - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
     Unity.XR.Management.dll:
@@ -115,8 +114,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 4442}
     - Class: 114
       Script: {instanceID: 4524}
-    - Class: 114
-      Script: {instanceID: 4754}
     - Class: 114
       Script: {instanceID: 5170}
     - Class: 114
@@ -1749,4 +1746,4 @@ ScriptsOnlyBuild:
   platform: 9
   scenePathNames:
   - Assets/ExampleAssets/Scenes/SampleScene.unity
-  playerPath: /Users/cs210student/Documents/Mercedes_3/2023-Mercedes3/iOS_Develop
+  playerPath: /Users/cs210student/Desktop/2023-Mercedes3-main/iOS_Develop

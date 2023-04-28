@@ -18,13 +18,13 @@ COMMAND LINE ARGUMENTS:
 -name
 AssetImportWorker0
 -projectPath
-/Users/cs210student/Documents/Mercedes_3/2023-Mercedes3/AR iOS
+/Users/cs210student/Desktop/2023-Mercedes3-main/AR iOS
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51404
-Successfully changed project path to: /Users/cs210student/Documents/Mercedes_3/2023-Mercedes3/AR iOS
-/Users/cs210student/Documents/Mercedes_3/2023-Mercedes3/AR iOS
+54313
+Successfully changed project path to: /Users/cs210student/Desktop/2023-Mercedes3-main/AR iOS
+/Users/cs210student/Desktop/2023-Mercedes3-main/AR iOS
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -54,15 +54,15 @@ Successfully changed project path to: /Users/cs210student/Documents/Mercedes_3/2
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [140704484361024] Host "[IP] 172.24.65.113 [Port] 0 [Flags] 2 [Guid] 1634997727 [EditorId] 1634997727 [Version] 1048832 [Id] OSXEditor(0,jay-imac23.stanford.edu) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [140704484361024] Host "[IP] 172.24.65.113 [Port] 0 [Flags] 2 [Guid] 400810311 [EditorId] 400810311 [Version] 1048832 [Id] OSXEditor(0,jay-imac23.stanford.edu) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [140704484361024] Host "[IP] 172.24.65.113 [Port] 0 [Flags] 2 [Guid] 1634997727 [EditorId] 1634997727 [Version] 1048832 [Id] OSXEditor(0,jay-imac23.stanford.edu) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [140704484361024] Host "[IP] 172.24.65.113 [Port] 0 [Flags] 2 [Guid] 400810311 [EditorId] 400810311 [Version] 1048832 [Id] OSXEditor(0,jay-imac23.stanford.edu) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 97.55 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 776.21 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.23f1 (213b516bf396)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.23f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/cs210student/Documents/Mercedes_3/2023-Mercedes3/AR iOS/Assets
+[Subsystems] Discovering subsystems at path /Users/cs210student/Desktop/2023-Mercedes3-main/AR iOS/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 iMac preferred device: AMD Radeon Pro 575X (high power)
 Metal devices available: 1
@@ -73,60 +73,59 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.23f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.23f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.23f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56876
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56982
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.23f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.23f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.23f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.001236 seconds.
+Registered in 0.218013 seconds.
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
-[usbmuxd] Attached: 10 00008020-00011C6926E9002E
 Native extension for iOS target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 90.47 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 94.21 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.857 seconds
+- Completed reload, in  2.308 seconds
 Domain Reload Profiling:
-	ReloadAssembly (857ms)
-		BeginReloadAssembly (72ms)
+	ReloadAssembly (2325ms)
+		BeginReloadAssembly (755ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (683ms)
-			LoadAssemblies (72ms)
+		EndReloadAssembly (1120ms)
+			LoadAssemblies (764ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (135ms)
+			SetupTypeCache (163ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (468ms)
+			SetupLoadedEditorAssemblies (848ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (184ms)
+				InitializePlatformSupportModulesInManaged (452ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (91ms)
+				RefreshPlugins (94ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (148ms)
-				ProcessInitializeOnLoadMethodAttributes (44ms)
+				ProcessInitializeOnLoadAttributes (255ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003899 seconds.
+Registered in 0.150605 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/cs210student/Documents/Mercedes_3/2023-Mercedes3/AR iOS/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/cs210student/Documents/Mercedes_3/2023-Mercedes3/AR iOS/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/cs210student/Desktop/2023-Mercedes3-main/AR iOS/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/cs210student/Desktop/2023-Mercedes3-main/AR iOS/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Native extension for iOS target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 92.07 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 96.44 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 [ARLocation]: Starting up!
@@ -151,68 +150,70 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (
 
 (Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 17)
 
-[ARLocation]: Creating new configuration!
+[ARLocation]: Config already exists!
 UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
 UnityEngine.Debug:Log (object)
-ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:33)
+ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:29)
 System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:126)
 
-(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 33)
+(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 29)
 
-Obtained 53 stack frames.
-#0  0x0000010782c12a in core::hash_set<core::pair<core::basic_string<char, core::StringStorageDefault<char>> const, UnityGUID, true>, core::hash_pair<core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, core::basic_string<char, core::StringStorageDefault<char>> const, UnityGUID>, core::equal_pair<std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>, core::basic_string<char, core::StringStorageDefault<char>> const, UnityGUID>>::operator=(core::hash_set<core::pair<core::basic_string<char, core::StringStorageDefault<char>> const, UnityGUID, true>, core::hash_pair<core::hash<core::basic_string<char, core::StringStorageDefault<char>>>, core::basic_string<char, core::StringStorageDefault<char>> const, UnityGUID>, core::equal_pair<std::__1::equal_to<core::basic_string<char, core::StringStorageDefault<char>>>, core::basic_string<char, core::StringStorageDefault<char>> const, UnityGUID>> const&)
-#1  0x0000010782ff7a in core::function_ref<void (SourceAssetDBWriteTxn&)>::function_ref<SourceAssetScanner::Refresh(ScanFilter const&, GuidReservations&)::$_3, (void*)0>(SourceAssetScanner::Refresh(ScanFilter const&, GuidReservations&)::$_3&&)::'lambda'(void*, SourceAssetDBWriteTxn&)::__invoke(void*, SourceAssetDBWriteTxn&)
-#2  0x000001078005c9 in LMDB_Transaction::Run(core::function_ref<void (LMDB_Transaction&)>)
-#3  0x0000010777b6ee in SourceAssetDBWriteTxn::Run(core::function_ref<void (SourceAssetDBWriteTxn&)>)
-#4  0x0000010782878f in SourceAssetScanner::Refresh(ScanFilter const&, GuidReservations&)
-#5  0x0000010779f9e8 in Scan(ScanFilter const&)
-#6  0x0000010779f881 in ImportAtPathV2(core::basic_string_ref<char>, AssetDatabase::UpdateAssetOptions)
-#7  0x0000010785f46f in AssetDatabase::ImportAtPath(core::basic_string_ref<char>, AssetDatabase::UpdateAssetOptions)
-#8  0x00000107837187 in AssetDatabase::CopyAsset(UnityGUID const&, core::basic_string<char, core::StringStorageDefault<char>> const&)
-#9  0x00000105963edf in AssetDatabaseBindings::CopyAsset(core::basic_string<char, core::StringStorageDefault<char>> const&, core::basic_string<char, core::StringStorageDefault<char>> const&)
-#10 0x00000105a2c968 in AssetDatabase_CUSTOM_CopyAsset(ScriptingBackendNativeStringPtrOpaque*, ScriptingBackendNativeStringPtrOpaque*)
-#11 0x0000015e2eb686 in  (wrapper managed-to-native) UnityEditor.AssetDatabase:CopyAsset (string,string) [{0x7faf25355090} + 0x86]  (0x15e2eb600 0x15e2eb73d) [0x154982a80 - Unity Child Domain]
-#12 0x00000154debc6c in mono_jit_runtime_invoke
-#13 0x00000154fa12cf in do_runtime_invoke
-#14 0x00000154f9d78b in mono_runtime_class_init_full
-#15 0x00000154f622e4 in ves_icall_System_Runtime_CompilerServices_RuntimeHelpers_RunClassConstructor_raw
-#16 0x00000154d2bfb6 in  (wrapper managed-to-native) System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (intptr) [{0x7faf63ac1628} + 0x56]  (0x154d2bf60 0x154d2c035) [0x154982a80 - Unity Child Domain]
-#17 0x00000154d41fa9 in  (wrapper runtime-invoke) <Module>:runtime_invoke_void_object (object,intptr,intptr,intptr) [{0x7faf520c0b80} + 0x89]  (0x154d41f20 0x154d4202b) [0x154982a80 - Unity Child Domain]
-#18 0x00000154debc6c in mono_jit_runtime_invoke
-#19 0x00000154fa12cf in do_runtime_invoke
-#20 0x00000154fa120c in mono_runtime_invoke
-#21 0x00000106332a37 in scripting_method_invoke(ScriptingMethodPtr, ScriptingObjectPtr, ScriptingArguments&, ScriptingExceptionPtr*, bool)
-#22 0x0000010630ed76 in ScriptingInvocation::Invoke(ScriptingExceptionPtr*, bool)
-#23 0x0000010643091b in Scripting::UnityEditor::EditorAssembliesProxy::ProcessInitializeOnLoadAttributes(ScriptingArrayPtr, ScriptingExceptionPtr*)
-#24 0x000001062daf4a in MonoManager::SetupLoadedEditorAssemblies(dynamic_array<int, 0ul> const&)
-#25 0x000001062dd4d8 in MonoManager::EndReloadAssembly(DomainReloadingData&, dynamic_bitset)
-#26 0x000001062db5e6 in MonoManager::ReloadAssembly()
-#27 0x00000106f0425a in LoadDomainAndUserAssemblies()
-#28 0x00000106f06490 in LoadUserAssemblies()
-#29 0x000001072e2176 in Application::InitializeProject()
-#30 0x0000010824f6bb in -[EditorApplication applicationDidFinishLaunching:]
-#31 0x007ff80d6ee838 in __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
-#32 0x007ff80d78746e in ___CFXRegistrationPost_block_invoke
-#33 0x007ff80d7873c3 in _CFXRegistrationPost
-#34 0x007ff80d6c1ab7 in _CFXNotificationPost
-#35 0x007ff80e52cd10 in -[NSNotificationCenter postNotificationName:object:userInfo:]
-#36 0x007ff8107914a1 in -[NSApplication _postDidFinishNotification]
-#37 0x007ff8107911ef in -[NSApplication _sendFinishLaunchingNotification]
-#38 0x007ff81078ef12 in -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
-#39 0x007ff81078eb68 in -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
-#40 0x007ff80e557c84 in -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
-#41 0x007ff80e557af6 in _NSAppleEventManagerGenericHandler
-#42 0x007ff813b39033 in _AppleEventsCheckInAppWithBlock
-#43 0x007ff813b3889f in _AppleEventsCheckInAppWithBlock
-#44 0x007ff813b31ec4 in aeProcessAppleEvent
-#45 0x007ff81716fcd8 in AEProcessAppleEvent
-#46 0x007ff810789aea in _DPSNextEvent
-#47 0x007ff81078864a in -[NSApplication(NSEvent) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
-#48 0x007ff81077acb8 in -[NSApplication run]
-#49 0x007ff81074eed2 in NSApplicationMain
-#50 0x0000010824d935 in EditorMain(int, char const**)
-#51 0x0000010824dc59 in main
-#52 0x007ff80d2c341f in start
+Mono: successfully reloaded assembly
+- Completed reload, in  1.634 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1635ms)
+		BeginReloadAssembly (109ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (1227ms)
+			LoadAssemblies (134ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (357ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (608ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (30ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (96ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (357ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.23f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.13 seconds
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4348 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (122.1 KB). Loaded Objects now: 4787.
+Memory consumption went from 146.2 MB to 146.1 MB.
+Total: 4.106798 ms (FindLiveObjects: 0.353290 ms CreateObjectMapping: 0.439378 ms MarkObjects: 3.151973 ms  DeleteObjects: 0.161173 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 359452.925321 seconds.
+  path: Assets/Arrow Materials
+  artifactKey: Guid(9bd27330a09ee418db05114afc6c89ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arrow Materials using Guid(9bd27330a09ee418db05114afc6c89ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6e9d54e88914988e8e45a28b80b0154') in 0.105573 seconds 

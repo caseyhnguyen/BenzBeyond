@@ -14,5 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Entries:
   - MeshId: intersection
-    Prefab: {fileID: 2551782817386328344, guid: 0a3e526b046c3e74988582ad34ad41e7,
+    Prefab: {fileID: 919132149155446097, guid: 2c412b162e6bc4dbfae2b271fbe4cf54, type: 3}
+  - MeshId: arrow
+    Prefab: {fileID: 7825410972945782162, guid: cfd35ff09300b40519f215498be77789,
       type: 3}

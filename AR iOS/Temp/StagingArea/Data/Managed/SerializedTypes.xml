@@ -1,0 +1,14 @@
+<linker>
+	<assembly fullname="Assembly-CSharp">
+		<type fullname="ARLocation.ARLocationOrientation/OnBeforeOrientationUpdatedEvent" preserve="nothing" serialized="true"/>
+		<type fullname="ARLocation.ARLocationProvider/CompassUpdatedUnityEvent" preserve="nothing" serialized="true"/>
+		<type fullname="ARLocation.ARLocationProvider/LocationEnabledUnityEvent" preserve="nothing" serialized="true"/>
+		<type fullname="ARLocation.ARLocationProvider/LocationUpdatedUnityEvent" preserve="nothing" serialized="true"/>
+		<type fullname="ARLocation.LocationProviderOptions" preserve="nothing" serialized="true"/>
+		<type fullname="ARLocation.PrefabDatabase/PrefabDatabaseEntry" preserve="nothing" serialized="true"/>
+	</assembly>
+	<assembly fullname="UnityEngine.CoreModule">
+		<type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true"/>
+		<type fullname="UnityEngine.Events.UnityEvent" preserve="nothing" serialized="true"/>
+	</assembly>
+</linker>
