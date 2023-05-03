@@ -9,13 +9,17 @@ ScriptsOnlyBuild:
     - ARLocation.MapboxRoutes.DefaultOnScreenTargetIndicator
     - ARLocation.MapboxRoutes.MapboxRoute
     - ARLocation.MapboxRoutes.NextStepRoutePathRenderer
+    - ARLocation.MapboxRoutes.SignPost
     - ARLocation.PlaceAtLocation
+    - ARLocation.Utils.RotateObject
     Unity.InputSystem.dll:
     - UnityEngine.InputSystem.InputSettings
     - UnityEngine.InputSystem.InputSystemObject
     - UnityEngine.InputSystem.RemoteInputPlayerConnection
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.TextMeshPro.dll:
+    - TMPro.TextMeshPro
     Unity.Tutorials.Core.Editor.dll:
     - Unity.Tutorials.Core.Editor.TutorialContainer
     - Unity.Tutorials.Core.Editor.TutorialWindow
@@ -77,13 +81,21 @@ ScriptsOnlyBuild:
     - ARLocation.MapboxRoutes.MapboxRoute/SettingsData
     - ARLocation.MapboxRoutes.NextStepRoutePathRenderer/SettingsData
     - ARLocation.MapboxRoutes.RouteWaypoint
+    - ARLocation.MapboxRoutes.SignPost/ArrowSettingsData
+    - ARLocation.MapboxRoutes.SignPost/MapPinSettingsData
+    - ARLocation.MapboxRoutes.SignPost/SettingsData
+    - ARLocation.MapboxRoutes.SignPost/SignSettingsData
     - ARLocation.OverrideAltitudeData
     - ARLocation.PlaceAtLocation/LocationSettingsData
     - ARLocation.PlaceAtLocation/ObjectUpdatedEvent
     - ARLocation.PlaceAtLocation/PlaceAtOptions
+    Unity.TextMeshPro:
+    - TMPro.VertexGradient
     UnityEngine.CoreModule:
     - UnityEngine.Events.PersistentCallGroup
     - UnityEngine.Events.UnityEvent
+    UnityEngine.UI:
+    - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
     UnityEngine.XR.MagicLeap:
     - UnityEngine.XR.MagicLeap.MagicLeapSettings/GLCache
   methodsToPreserve: []
@@ -122,11 +134,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3944}
     - Class: 114
+      Script: {instanceID: 4306}
+    - Class: 114
       Script: {instanceID: 4446}
     - Class: 114
       Script: {instanceID: 4528}
     - Class: 114
       Script: {instanceID: 4700}
+    - Class: 114
+      Script: {instanceID: 4754}
+    - Class: 114
+      Script: {instanceID: 4758}
     - Class: 114
       Script: {instanceID: 5174}
     - Class: 114
@@ -156,6 +174,10 @@ ScriptsOnlyBuild:
     - Class: 196
       Script: {instanceID: 0}
     - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
