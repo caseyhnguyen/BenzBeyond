@@ -5,26 +5,21 @@ ScriptsOnlyBuild:
     - ARLocation.ARLocationManager
     - ARLocation.ARLocationOrientation
     - ARLocation.ARLocationProvider
+    - ARLocation.MapboxRoutes.CustomRoute
     - ARLocation.MapboxRoutes.DefaultOnScreenTargetIndicator
     - ARLocation.MapboxRoutes.MapboxRoute
     - ARLocation.MapboxRoutes.NextStepRoutePathRenderer
-    - ARLocation.MapboxRoutes.SignPost
     - ARLocation.PlaceAtLocation
-    - ARLocation.Utils.RotateObject
     Unity.InputSystem.dll:
     - UnityEngine.InputSystem.InputSettings
     - UnityEngine.InputSystem.InputSystemObject
     - UnityEngine.InputSystem.RemoteInputPlayerConnection
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    Unity.TextMeshPro.dll:
-    - TMPro.TextMeshPro
     Unity.Tutorials.Core.Editor.dll:
     - Unity.Tutorials.Core.Editor.TutorialContainer
     - Unity.Tutorials.Core.Editor.TutorialWindow
     - Unity.Tutorials.Core.Editor.WindowCache
-    Unity.XR.ARCore.Editor.dll:
-    - UnityEditor.XR.ARCore.ARCoreSettings
     Unity.XR.ARFoundation.dll:
     - UnityEngine.XR.ARFoundation.ARCameraBackground
     - UnityEngine.XR.ARFoundation.ARCameraManager
@@ -76,26 +71,19 @@ ScriptsOnlyBuild:
     - ARLocation.LocationPropertyData
     - ARLocation.LocationPropertyData/LocationPropertyType
     - ARLocation.LocationProviderOptions
+    - ARLocation.MapboxRoutes.CustomRoute/Point
     - ARLocation.MapboxRoutes.MapboxRoute/MapboxRouteLoadErrorEvent
     - ARLocation.MapboxRoutes.MapboxRoute/RouteSettings
     - ARLocation.MapboxRoutes.MapboxRoute/SettingsData
     - ARLocation.MapboxRoutes.NextStepRoutePathRenderer/SettingsData
     - ARLocation.MapboxRoutes.RouteWaypoint
-    - ARLocation.MapboxRoutes.SignPost/ArrowSettingsData
-    - ARLocation.MapboxRoutes.SignPost/MapPinSettingsData
-    - ARLocation.MapboxRoutes.SignPost/SettingsData
-    - ARLocation.MapboxRoutes.SignPost/SignSettingsData
     - ARLocation.OverrideAltitudeData
     - ARLocation.PlaceAtLocation/LocationSettingsData
     - ARLocation.PlaceAtLocation/ObjectUpdatedEvent
     - ARLocation.PlaceAtLocation/PlaceAtOptions
-    Unity.TextMeshPro:
-    - TMPro.VertexGradient
     UnityEngine.CoreModule:
     - UnityEngine.Events.PersistentCallGroup
     - UnityEngine.Events.UnityEvent
-    UnityEngine.UI:
-    - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
     UnityEngine.XR.MagicLeap:
     - UnityEngine.XR.MagicLeap.MagicLeapSettings/GLCache
   methodsToPreserve: []
@@ -128,41 +116,37 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1798}
+      Script: {instanceID: 1802}
     - Class: 114
-      Script: {instanceID: 1868}
+      Script: {instanceID: 1872}
     - Class: 114
-      Script: {instanceID: 3940}
+      Script: {instanceID: 3944}
     - Class: 114
-      Script: {instanceID: 4302}
+      Script: {instanceID: 4446}
     - Class: 114
-      Script: {instanceID: 4442}
+      Script: {instanceID: 4528}
     - Class: 114
-      Script: {instanceID: 4524}
+      Script: {instanceID: 4700}
     - Class: 114
-      Script: {instanceID: 4696}
+      Script: {instanceID: 5174}
     - Class: 114
-      Script: {instanceID: 4750}
+      Script: {instanceID: 6956}
     - Class: 114
-      Script: {instanceID: 4754}
+      Script: {instanceID: 7184}
     - Class: 114
-      Script: {instanceID: 5170}
+      Script: {instanceID: 7540}
     - Class: 114
-      Script: {instanceID: 6952}
+      Script: {instanceID: 7742}
     - Class: 114
-      Script: {instanceID: 7180}
+      Script: {instanceID: 8200}
     - Class: 114
-      Script: {instanceID: 7536}
+      Script: {instanceID: 8476}
     - Class: 114
-      Script: {instanceID: 8196}
+      Script: {instanceID: 8798}
     - Class: 114
-      Script: {instanceID: 8472}
+      Script: {instanceID: 9238}
     - Class: 114
-      Script: {instanceID: 8794}
-    - Class: 114
-      Script: {instanceID: 9234}
-    - Class: 114
-      Script: {instanceID: 10006}
+      Script: {instanceID: 10010}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 136
@@ -172,10 +156,6 @@ ScriptsOnlyBuild:
     - Class: 196
       Script: {instanceID: 0}
     - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
   - hash:

@@ -804,7 +804,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Settings:
-    LineMaterial: {fileID: 2100000, guid: 22600824992edde46acf611f3af4458c, type: 2}
+    LineMaterial: {fileID: 2100000, guid: 972d65b3365e8da45aa7abe44e2847b5, type: 2}
     TextureOffsetFactor: -4
 --- !u!114 &1900725529
 MonoBehaviour:
@@ -819,19 +819,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Settings:
-    SignpostPrefabs:
-    - {fileID: 2406714923471210871, guid: 154e5264001534d7999c9720b114562d, type: 3}
+    SignpostPrefabs: []
     PathRenderer: {fileID: 1900725528}
     OnScreenIndicator: {fileID: 1900725527}
     MapboxToken: sk.eyJ1IjoieXVlcnpob3UiLCJhIjoiY2xnd25hbHVkMW1yeDNocWk0ajh1YXptYiJ9.YDaaN3bBN5FM3gyNnvLx-Q
     Language: 12
     RouteSettings:
-      RouteType: 0
+      RouteType: 1
       From:
-        Type: 0
+        Type: 1
         Location:
-          Latitude: 37.42994838343763
-          Longitude: -122.17318939692129
+          Latitude: 37.42990183260979
+          Longitude: -122.17298618456164
           Altitude: 0
           AltitudeMode: 0
           Label: straight
@@ -839,13 +838,13 @@ MonoBehaviour:
       To:
         Type: 1
         Location:
-          Latitude: 37.42994838343763
-          Longitude: -122.17318939692129
+          Latitude: 37.42898099474618
+          Longitude: -122.16975556624936
           Altitude: 0
           AltitudeMode: 0
           Label: straight
         Query: 
-      CustomRoute: {fileID: 0}
+      CustomRoute: {fileID: 11400000, guid: 62e3fa9ed5a3f42eeacc0c18d4adb8cf, type: 2}
     LoadRouteAtStartup: 1
     GroundHeight: 1.4
     OnMapboxRouteLoadError:
