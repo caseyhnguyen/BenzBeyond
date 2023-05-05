@@ -832,3 +832,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 [usbmuxd] Detached: 42 00008030-001809203630802E
 [usbmuxd] Attached: 43 00008030-001809203630802E
+[usbmuxd] Detached: 43 00008030-001809203630802E
+[usbmuxd] Attached: 44 00008030-001809203630802E
+[usbmuxd] Detached: 44 00008030-001809203630802E
+[usbmuxd] Attached: 45 00008020-00011C6926E9002E
