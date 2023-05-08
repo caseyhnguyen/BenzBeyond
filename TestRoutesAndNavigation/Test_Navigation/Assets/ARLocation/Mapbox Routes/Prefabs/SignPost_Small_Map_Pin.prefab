@@ -48,10 +48,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RoadSignSettings:
-    Container: {fileID: 0}
+    Container: {fileID: 5929591857152066984}
     DirectionLabel: {fileID: 5674453178547898602}
     DistanceLabel: {fileID: 8626940530219562156}
-    Height: 3.4
+    Height: 0.5
     FollowDistance: 20
   DirectionArrowSettings:
     Container: {fileID: 5620263263100678013}
@@ -355,7 +355,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: Directions Sign
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

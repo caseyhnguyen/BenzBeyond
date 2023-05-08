@@ -39,11 +39,11 @@ namespace ARLocation.MapboxRoutes
             public TMP_Text DistanceLabel;
 
             [Tooltip("The height of the road-sign.")]
-            public float Height = 2;
+            public float Height = 1;
 
             [Tooltip("The road-sign always follows ahead of the user at some distance, being placed in a straight line form the user's current position to the next target position."
                     + " This is settting defines the distance that the road-sign will keep ahead from the user.")]
-            public float FollowDistance = 10;
+            public float FollowDistance = 20;
         }
 
         [System.Serializable]
