@@ -22,7 +22,7 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62796
+65519
 Successfully changed project path to: /Users/cs210student/Documents/Mercedes_3/2023-Mercedes3/TestRoutesAndNavigation/Test_Navigation
 /Users/cs210student/Documents/Mercedes_3/2023-Mercedes3/TestRoutesAndNavigation/Test_Navigation
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,11 +54,11 @@ Successfully changed project path to: /Users/cs210student/Documents/Mercedes_3/2
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [140704484361024] Host "[IP] 169.254.3.88 [Port] 0 [Flags] 2 [Guid] 2459383378 [EditorId] 2459383378 [Version] 1048832 [Id] OSXEditor(0,CS210s-iMac.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [140704484361024] Host "[IP] 169.254.3.88 [Port] 0 [Flags] 2 [Guid] 2977376 [EditorId] 2977376 [Version] 1048832 [Id] OSXEditor(0,CS210s-iMac.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [140704484361024] Host "[IP] 169.254.3.88 [Port] 0 [Flags] 2 [Guid] 2459383378 [EditorId] 2459383378 [Version] 1048832 [Id] OSXEditor(0,CS210s-iMac.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [140704484361024] Host "[IP] 169.254.3.88 [Port] 0 [Flags] 2 [Guid] 2977376 [EditorId] 2977376 [Version] 1048832 [Id] OSXEditor(0,CS210s-iMac.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 101.05 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 100.22 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.23f1 (213b516bf396)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.23f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -73,59 +73,59 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.23f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.23f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.23f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56211
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56461
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.23f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.23f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.23f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.001371 seconds.
+Registered in 0.001212 seconds.
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
 Native extension for iOS target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 91.69 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 99.89 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.738 seconds
+- Completed reload, in  0.778 seconds
 Domain Reload Profiling:
-	ReloadAssembly (738ms)
+	ReloadAssembly (778ms)
 		BeginReloadAssembly (71ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (568ms)
-			LoadAssemblies (70ms)
+		EndReloadAssembly (606ms)
+			LoadAssemblies (71ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (126ms)
+			SetupTypeCache (137ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (363ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (384ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (89ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (92ms)
+				RefreshPlugins (100ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (138ms)
-				ProcessInitializeOnLoadMethodAttributes (43ms)
+				ProcessInitializeOnLoadAttributes (148ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005413 seconds.
+Registered in 0.004087 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/cs210student/Documents/Mercedes_3/2023-Mercedes3/TestRoutesAndNavigation/Test_Navigation/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image /Users/cs210student/Documents/Mercedes_3/2023-Mercedes3/TestRoutesAndNavigation/Test_Navigation/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Native extension for iOS target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 93.29 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 94.22 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 [ARLocation]: Starting up!
@@ -162,29 +162,29 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (
 (Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 29)
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.296 seconds
+- Completed reload, in  1.299 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1297ms)
-		BeginReloadAssembly (111ms)
+	ReloadAssembly (1300ms)
+		BeginReloadAssembly (109ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (1072ms)
-			LoadAssemblies (79ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (1083ms)
+			LoadAssemblies (78ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
 			SetupTypeCache (341ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (68ms)
-			SetupLoadedEditorAssemblies (537ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (541ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (21ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (93ms)
-				BeforeProcessingInitializeOnLoad (99ms)
-				ProcessInitializeOnLoadAttributes (302ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
+				RefreshPlugins (94ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (307ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -194,12 +194,12 @@ Platform modules already initialized, skipping
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.23f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4348 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 55 unused Assets / (Unknown). Loaded Objects now: 4788.
-Memory consumption went from 147.6 MB to 147.6 MB.
-Total: 3.676651 ms (FindLiveObjects: 0.298884 ms CreateObjectMapping: 0.253492 ms MarkObjects: 2.975657 ms  DeleteObjects: 0.147912 ms)
+Unloading 4395 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 55 unused Assets / (Unknown). Loaded Objects now: 4835.
+Memory consumption went from 151.0 MB to 151.0 MB.
+Total: 3.595122 ms (FindLiveObjects: 0.424000 ms CreateObjectMapping: 0.233575 ms MarkObjects: 2.784668 ms  DeleteObjects: 0.152180 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -213,626 +213,211 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 724173.851228 seconds.
-  path: Assets/ARLocation/Mapbox Routes/Prefabs/DefaultSignPost 1.prefab
-  artifactKey: Guid(61919c201966c4ce78ac1bddaebd556d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARLocation/Mapbox Routes/Prefabs/DefaultSignPost 1.prefab using Guid(61919c201966c4ce78ac1bddaebd556d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2342ae867d00421313eb785f318921bd') in 1.239334 seconds 
+  Time since last request: 757635.325343 seconds.
+  path: Assets/ARLocation/Mapbox Routes/Materials
+  artifactKey: Guid(4754c09324a0c4c2da2a6bb5b2ff589e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARLocation/Mapbox Routes/Materials using Guid(4754c09324a0c4c2da2a6bb5b2ff589e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec588ef7da58638604512d6cb4633cd9') in 0.008583 seconds 
+[usbmuxd] Attached: 54 00008020-00011C6926E9002E
 ========================================================================
 Received Import Request.
-  Time since last request: 38.207540 seconds.
+  Time since last request: 187.492996 seconds.
+  path: Assets/ARLocation/Mapbox Routes/Prefabs
+  artifactKey: Guid(75f9294f871a84abbbd2602a99acf348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARLocation/Mapbox Routes/Prefabs using Guid(75f9294f871a84abbbd2602a99acf348) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8cda0c07ac5cceac7ecd0371b24e18f') in 0.000985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 172.045446 seconds.
+  path: Assets/ARLocation/Mapbox Routes/Prefabs/ArrowPrefab.prefab
+  artifactKey: Guid(cfd35ff09300b40519f215498be77789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARLocation/Mapbox Routes/Prefabs/ArrowPrefab.prefab using Guid(cfd35ff09300b40519f215498be77789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca113828ede9ce306b405c6d67f46dc4') in 1.216264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
   path: Assets/ARLocation/Mapbox Routes/Prefabs/DefaultSignPost.prefab
   artifactKey: Guid(9427d144b9f504ecaa05db95fe5a286a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARLocation/Mapbox Routes/Prefabs/DefaultSignPost.prefab using Guid(9427d144b9f504ecaa05db95fe5a286a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce1c61eae3b53ee3c8b3f41a7a9dfc3d') in 0.013587 seconds 
+Start importing Assets/ARLocation/Mapbox Routes/Prefabs/DefaultSignPost.prefab using Guid(9427d144b9f504ecaa05db95fe5a286a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e728ddcd7f822b777e037943d540edb') in 0.128787 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000079 seconds.
-  path: Assets/ARLocation/Mapbox Routes/Prefabs/DefaultSignPost 1.prefab
-  artifactKey: Guid(61919c201966c4ce78ac1bddaebd556d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARLocation/Mapbox Routes/Prefabs/DefaultSignPost 1.prefab using Guid(61919c201966c4ce78ac1bddaebd556d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3da167a133cb99b0a19ac477ba6ca298') in 0.013302 seconds 
+  Time since last request: 0.000072 seconds.
+  path: Assets/ARLocation/Mapbox Routes/Prefabs/SignPost_Small_Map_Pin.prefab
+  artifactKey: Guid(154e5264001534d7999c9720b114562d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARLocation/Mapbox Routes/Prefabs/SignPost_Small_Map_Pin.prefab using Guid(154e5264001534d7999c9720b114562d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89df54d20efbf80c8adc2e9f4106829e') in 0.026177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 93.203204 seconds.
+  path: Assets/navigation.unity
+  artifactKey: Guid(983550e347287490bb9ed9f45f8d691c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/navigation.unity using Guid(983550e347287490bb9ed9f45f8d691c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5059ca12886ce91bc68e67554811365a') in 0.006352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 444.700025 seconds.
+  path: Assets/ARLocation/Mapbox Routes/Textures
+  artifactKey: Guid(54453f66a862e4f66a1f925d9b0ff38d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARLocation/Mapbox Routes/Textures using Guid(54453f66a862e4f66a1f925d9b0ff38d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15084cacc35f624f13b8b08f8a14451f') in 0.025234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 161.446861 seconds.
+  path: Assets/ARLocation/Mapbox Routes/Prefabs/ArrowPrefab.prefab
+  artifactKey: Guid(cfd35ff09300b40519f215498be77789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARLocation/Mapbox Routes/Prefabs/ArrowPrefab.prefab using Guid(cfd35ff09300b40519f215498be77789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bede75fade7ab1780f69c9531d41a5ef') in 0.034763 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000075 seconds.
-  path: Assets/ARLocation/Mapbox Routes/Prefabs/SignMeshPrefabOLD.prefab
-  artifactKey: Guid(b84ceac3303274827bb49595b0dd5f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARLocation/Mapbox Routes/Prefabs/SignMeshPrefabOLD.prefab using Guid(b84ceac3303274827bb49595b0dd5f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a355b18fc29e49a5196bee1f65d006b') in 0.008071 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000097 seconds.
-  path: Assets/ARLocation/Mapbox Routes/Prefabs/SignPost_Small_Map_Pin.prefab
-  artifactKey: Guid(154e5264001534d7999c9720b114562d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARLocation/Mapbox Routes/Prefabs/SignPost_Small_Map_Pin.prefab using Guid(154e5264001534d7999c9720b114562d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c093c0e3ad7781ed433a42d4be94063') in 0.011834 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 24.245380 seconds.
-  path: Assets/ARLocation/Mapbox Routes/Prefabs/AssetsARLocationMapbox RoutesPrefabsSignMeshPrefab.prefab
-  artifactKey: Guid(61919c201966c4ce78ac1bddaebd556d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARLocation/Mapbox Routes/Prefabs/AssetsARLocationMapbox RoutesPrefabsSignMeshPrefab.prefab using Guid(61919c201966c4ce78ac1bddaebd556d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c1ad87ba908610ba9ded139e996939e') in 0.014153 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 19.055931 seconds.
-  path: Assets/ARLocation/Mapbox Routes/Prefabs/SignMeshPrefab.prefab
-  artifactKey: Guid(61919c201966c4ce78ac1bddaebd556d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARLocation/Mapbox Routes/Prefabs/SignMeshPrefab.prefab using Guid(61919c201966c4ce78ac1bddaebd556d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0673138b504fb263ef5c6cb613e623c0') in 0.013451 seconds 
-[usbmuxd] Attached: 42 00008030-001809203630802E
-========================================================================
-Received Import Request.
-  Time since last request: 114.087041 seconds.
   path: Assets/ARLocation/Mapbox Routes/Prefabs/DefaultSignPost.prefab
   artifactKey: Guid(9427d144b9f504ecaa05db95fe5a286a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARLocation/Mapbox Routes/Prefabs/DefaultSignPost.prefab using Guid(9427d144b9f504ecaa05db95fe5a286a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab99e6a7aecddd099db7ff9a2ac882da') in 0.014733 seconds 
+Start importing Assets/ARLocation/Mapbox Routes/Prefabs/DefaultSignPost.prefab using Guid(9427d144b9f504ecaa05db95fe5a286a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95b49579e12ac03738a513a2295478fc') in 0.027333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/ARLocation/Mapbox Routes/Prefabs/SignPost_Small_Map_Pin.prefab
+  artifactKey: Guid(154e5264001534d7999c9720b114562d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARLocation/Mapbox Routes/Prefabs/SignPost_Small_Map_Pin.prefab using Guid(154e5264001534d7999c9720b114562d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86dae2c6d45526c7aad7b81c4be233b3') in 0.049410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 179.583936 seconds.
+  path: Assets/ARLocation/Mapbox Routes/Prefabs/SignPost_Small_Map_Pin.prefab
+  artifactKey: Guid(154e5264001534d7999c9720b114562d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARLocation/Mapbox Routes/Prefabs/SignPost_Small_Map_Pin.prefab using Guid(154e5264001534d7999c9720b114562d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56799f8fe07b9c5d09b1e42675c5a5a0') in 0.073736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/ARLocation/Mapbox Routes/Prefabs/DefaultSignPost.prefab
+  artifactKey: Guid(9427d144b9f504ecaa05db95fe5a286a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARLocation/Mapbox Routes/Prefabs/DefaultSignPost.prefab using Guid(9427d144b9f504ecaa05db95fe5a286a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0b69a4b69a217729276ff67587d3f1d') in 0.037582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/ARLocation/Mapbox Routes/Prefabs/SignMeshPrefab.prefab
+  artifactKey: Guid(b84ceac3303274827bb49595b0dd5f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARLocation/Mapbox Routes/Prefabs/SignMeshPrefab.prefab using Guid(b84ceac3303274827bb49595b0dd5f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '514c885d3236a221c4ed7998f5c6c4f1') in 0.012296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 84.676843 seconds.
+  path: Assets/ARLocation/Mapbox Routes/Prefabs/DefaultSignPost.prefab
+  artifactKey: Guid(9427d144b9f504ecaa05db95fe5a286a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARLocation/Mapbox Routes/Prefabs/DefaultSignPost.prefab using Guid(9427d144b9f504ecaa05db95fe5a286a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3021bb93307a9640ebb75bf90bc9e1e') in 0.129920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/ARLocation/Mapbox Routes/Prefabs/MapPinPrefab.prefab
+  artifactKey: Guid(f9e365456859e4690951774033c4127a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARLocation/Mapbox Routes/Prefabs/MapPinPrefab.prefab using Guid(f9e365456859e4690951774033c4127a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff62c477a73819f7b8552cf5cc30bbcd') in 0.023003 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/ARLocation/Mapbox Routes/Prefabs/SignPost_Small_Map_Pin.prefab
+  artifactKey: Guid(154e5264001534d7999c9720b114562d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARLocation/Mapbox Routes/Prefabs/SignPost_Small_Map_Pin.prefab using Guid(154e5264001534d7999c9720b114562d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86a5530f25319d253cf6625d0d4f4021') in 0.057802 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.11 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 45 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (77.0 KB). Loaded Objects now: 4846.
+Memory consumption went from 67.1 MB to 67.0 MB.
+Total: 4.208902 ms (FindLiveObjects: 0.336311 ms CreateObjectMapping: 0.319726 ms MarkObjects: 3.429082 ms  DeleteObjects: 0.123032 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+[usbmuxd] Detached: 54 00008020-00011C6926E9002E
+[usbmuxd] Attached: 55 00008020-00011C6926E9002E
+========================================================================
+Received Import Request.
+  Time since last request: 823.606312 seconds.
+  path: Assets/ARLocation/Mapbox Routes/Prefabs/DefaultSignPost.prefab
+  artifactKey: Guid(9427d144b9f504ecaa05db95fe5a286a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARLocation/Mapbox Routes/Prefabs/DefaultSignPost.prefab using Guid(9427d144b9f504ecaa05db95fe5a286a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7714280e85a651f5aa0620b20692fdc7') in 1.501782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/ARLocation/Mapbox Routes/Prefabs/SignMeshPrefab.prefab
+  artifactKey: Guid(b84ceac3303274827bb49595b0dd5f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARLocation/Mapbox Routes/Prefabs/SignMeshPrefab.prefab using Guid(b84ceac3303274827bb49595b0dd5f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8480a4ce06fd49ef1e4bda8afcb763bd') in 0.017147 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/ARLocation/Mapbox Routes/Prefabs/SignPost_Small_Map_Pin.prefab
+  artifactKey: Guid(154e5264001534d7999c9720b114562d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARLocation/Mapbox Routes/Prefabs/SignPost_Small_Map_Pin.prefab using Guid(154e5264001534d7999c9720b114562d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfadad684369c4c51f77f444bd5963ad') in 0.037554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 134.562358 seconds.
+  path: Assets/ARLocation/Mapbox Routes/Prefabs/DefaultSignPost.prefab
+  artifactKey: Guid(9427d144b9f504ecaa05db95fe5a286a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARLocation/Mapbox Routes/Prefabs/DefaultSignPost.prefab using Guid(9427d144b9f504ecaa05db95fe5a286a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6037dd3c0efe2a839d4c083af49339b1') in 0.272712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/ARLocation/Mapbox Routes/Prefabs/MapPinPrefab.prefab
+  artifactKey: Guid(f9e365456859e4690951774033c4127a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARLocation/Mapbox Routes/Prefabs/MapPinPrefab.prefab using Guid(f9e365456859e4690951774033c4127a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '556d527922b7ac7b438bce1da62cdc39') in 0.021642 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/ARLocation/Mapbox Routes/Prefabs/SignPost_Small_Map_Pin.prefab
+  artifactKey: Guid(154e5264001534d7999c9720b114562d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARLocation/Mapbox Routes/Prefabs/SignPost_Small_Map_Pin.prefab using Guid(154e5264001534d7999c9720b114562d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7579c0c7e5bd0e952ccf4d5f57b13128') in 0.035656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.260641 seconds.
+  path: Assets/ARLocation/Mapbox Routes/Prefabs/DefaultSignPost.prefab
+  artifactKey: Guid(9427d144b9f504ecaa05db95fe5a286a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARLocation/Mapbox Routes/Prefabs/DefaultSignPost.prefab using Guid(9427d144b9f504ecaa05db95fe5a286a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '535d068a0bdf3f205fd5156f09e9c5a5') in 0.040223 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000073 seconds.
   path: Assets/ARLocation/Mapbox Routes/Prefabs/SignMeshPrefab.prefab
-  artifactKey: Guid(61919c201966c4ce78ac1bddaebd556d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARLocation/Mapbox Routes/Prefabs/SignMeshPrefab.prefab using Guid(61919c201966c4ce78ac1bddaebd556d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22aa7d6c420ac0c289987ce89bdfe4f7') in 0.018570 seconds 
+  artifactKey: Guid(b84ceac3303274827bb49595b0dd5f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARLocation/Mapbox Routes/Prefabs/SignMeshPrefab.prefab using Guid(b84ceac3303274827bb49595b0dd5f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0823cc311185819bacef5ef4701a4d3d') in 0.017145 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000070 seconds.
+  Time since last request: 0.000073 seconds.
   path: Assets/ARLocation/Mapbox Routes/Prefabs/SignPost_Small_Map_Pin.prefab
   artifactKey: Guid(154e5264001534d7999c9720b114562d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARLocation/Mapbox Routes/Prefabs/SignPost_Small_Map_Pin.prefab using Guid(154e5264001534d7999c9720b114562d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eda945221e02692d3dbbcd2ecf79e7f0') in 0.009910 seconds 
+Start importing Assets/ARLocation/Mapbox Routes/Prefabs/SignPost_Small_Map_Pin.prefab using Guid(154e5264001534d7999c9720b114562d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25d525ce9806ff586f5361a68c1ed246') in 0.032910 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 44 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (76.9 KB). Loaded Objects now: 4846.
+Memory consumption went from 67.2 MB to 67.1 MB.
+Total: 3.667012 ms (FindLiveObjects: 0.309601 ms CreateObjectMapping: 0.274646 ms MarkObjects: 2.964894 ms  DeleteObjects: 0.117207 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 38.547229 seconds.
-  path: Assets/ARLocation/Mapbox Routes/Prefabs/AssetsARLocationMapbox RoutesPrefabsSignMeshPrefab.prefab
-  artifactKey: Guid(61919c201966c4ce78ac1bddaebd556d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARLocation/Mapbox Routes/Prefabs/AssetsARLocationMapbox RoutesPrefabsSignMeshPrefab.prefab using Guid(61919c201966c4ce78ac1bddaebd556d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22486d65720c0b5244bb513650dc51da') in 0.010730 seconds 
+  Time since last request: 465.779571 seconds.
+  path: Assets/ARLocation/Mapbox Routes/Prefabs/DefaultSignPost.prefab
+  artifactKey: Guid(9427d144b9f504ecaa05db95fe5a286a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARLocation/Mapbox Routes/Prefabs/DefaultSignPost.prefab using Guid(9427d144b9f504ecaa05db95fe5a286a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0133774de9ce48ba8f3d38cdafd39293') in 0.046401 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.734782 seconds.
-  path: Assets/ARLocation/Mapbox Routes/Prefabs/DefaultSignPost 1.prefab
-  artifactKey: Guid(61919c201966c4ce78ac1bddaebd556d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ARLocation/Mapbox Routes/Prefabs/DefaultSignPost 1.prefab using Guid(61919c201966c4ce78ac1bddaebd556d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa944dc62ea0c2dbaa6b01bf004ecb26') in 0.010270 seconds 
+  Time since last request: 0.000076 seconds.
+  path: Assets/ARLocation/Mapbox Routes/Prefabs/SignMeshPrefab.prefab
+  artifactKey: Guid(b84ceac3303274827bb49595b0dd5f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARLocation/Mapbox Routes/Prefabs/SignMeshPrefab.prefab using Guid(b84ceac3303274827bb49595b0dd5f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2d23a8bf8d4af97674880276a3b2c65') in 0.016849 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005382 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/cs210student/Documents/Mercedes_3/2023-Mercedes3/TestRoutesAndNavigation/Test_Navigation/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/cs210student/Documents/Mercedes_3/2023-Mercedes3/TestRoutesAndNavigation/Test_Navigation/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Native extension for iOS target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[ARLocation]: Starting up!
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:13)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:126)
-
-(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 13)
-
-[ARLocation]: Resource folder already exists!
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:17)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:126)
-
-(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 17)
-
-[ARLocation]: Config already exists!
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:29)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:126)
-
-(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 29)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.163 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1163ms)
-		BeginReloadAssembly (152ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (60ms)
-		EndReloadAssembly (914ms)
-			LoadAssemblies (85ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (336ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (392ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (25ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (68ms)
-				ProcessInitializeOnLoadAttributes (271ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.76 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4323 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 45 unused Assets / (102.0 KB). Loaded Objects now: 4800.
-Memory consumption went from 152.9 MB to 152.8 MB.
-Total: 3.469578 ms (FindLiveObjects: 0.305021 ms CreateObjectMapping: 0.271724 ms MarkObjects: 2.774777 ms  DeleteObjects: 0.117091 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004062 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/cs210student/Documents/Mercedes_3/2023-Mercedes3/TestRoutesAndNavigation/Test_Navigation/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/cs210student/Documents/Mercedes_3/2023-Mercedes3/TestRoutesAndNavigation/Test_Navigation/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Native extension for iOS target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[ARLocation]: Starting up!
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:13)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:126)
-
-(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 13)
-
-[ARLocation]: Resource folder already exists!
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:17)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:126)
-
-(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 17)
-
-[ARLocation]: Config already exists!
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:29)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:126)
-
-(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 29)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.139 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1140ms)
-		BeginReloadAssembly (139ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (56ms)
-		EndReloadAssembly (908ms)
-			LoadAssemblies (71ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (337ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (390ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (23ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (68ms)
-				ProcessInitializeOnLoadAttributes (273ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.26 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4323 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 45 unused Assets / (102.4 KB). Loaded Objects now: 4804.
-Memory consumption went from 153.0 MB to 152.9 MB.
-Total: 3.982331 ms (FindLiveObjects: 0.337966 ms CreateObjectMapping: 0.340880 ms MarkObjects: 3.181209 ms  DeleteObjects: 0.121124 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005361 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/cs210student/Documents/Mercedes_3/2023-Mercedes3/TestRoutesAndNavigation/Test_Navigation/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/cs210student/Documents/Mercedes_3/2023-Mercedes3/TestRoutesAndNavigation/Test_Navigation/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Native extension for iOS target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[ARLocation]: Starting up!
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:13)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:126)
-
-(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 13)
-
-[ARLocation]: Resource folder already exists!
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:17)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:126)
-
-(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 17)
-
-[ARLocation]: Config already exists!
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:29)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:126)
-
-(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 29)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.148 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1148ms)
-		BeginReloadAssembly (144ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (60ms)
-		EndReloadAssembly (909ms)
-			LoadAssemblies (71ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (335ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (392ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (24ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (68ms)
-				ProcessInitializeOnLoadAttributes (273ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.96 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4323 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 45 unused Assets / (102.3 KB). Loaded Objects now: 4808.
-Memory consumption went from 153.0 MB to 152.9 MB.
-Total: 3.513279 ms (FindLiveObjects: 0.297743 ms CreateObjectMapping: 0.270651 ms MarkObjects: 2.813528 ms  DeleteObjects: 0.130421 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004033 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/cs210student/Documents/Mercedes_3/2023-Mercedes3/TestRoutesAndNavigation/Test_Navigation/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/cs210student/Documents/Mercedes_3/2023-Mercedes3/TestRoutesAndNavigation/Test_Navigation/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Native extension for iOS target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[ARLocation]: Starting up!
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:13)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:126)
-
-(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 13)
-
-[ARLocation]: Resource folder already exists!
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:17)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:126)
-
-(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 17)
-
-[ARLocation]: Config already exists!
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:29)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:126)
-
-(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 29)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.123 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1124ms)
-		BeginReloadAssembly (141ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (56ms)
-		EndReloadAssembly (889ms)
-			LoadAssemblies (69ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (329ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (378ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (23ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (69ms)
-				ProcessInitializeOnLoadAttributes (262ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.53 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4323 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 45 unused Assets / (102.3 KB). Loaded Objects now: 4812.
-Memory consumption went from 153.0 MB to 152.9 MB.
-Total: 3.413483 ms (FindLiveObjects: 0.298498 ms CreateObjectMapping: 0.249799 ms MarkObjects: 2.743165 ms  DeleteObjects: 0.121025 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004121 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/cs210student/Documents/Mercedes_3/2023-Mercedes3/TestRoutesAndNavigation/Test_Navigation/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/cs210student/Documents/Mercedes_3/2023-Mercedes3/TestRoutesAndNavigation/Test_Navigation/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Native extension for iOS target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[ARLocation]: Starting up!
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:13)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:126)
-
-(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 13)
-
-[ARLocation]: Resource folder already exists!
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:17)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:126)
-
-(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 17)
-
-[ARLocation]: Config already exists!
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:29)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:126)
-
-(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 29)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.145 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1146ms)
-		BeginReloadAssembly (142ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (59ms)
-		EndReloadAssembly (910ms)
-			LoadAssemblies (67ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (335ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (396ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (23ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (70ms)
-				ProcessInitializeOnLoadAttributes (274ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.36 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4323 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 45 unused Assets / (102.4 KB). Loaded Objects now: 4816.
-Memory consumption went from 153.0 MB to 152.9 MB.
-Total: 3.486413 ms (FindLiveObjects: 0.296270 ms CreateObjectMapping: 0.277190 ms MarkObjects: 2.782398 ms  DeleteObjects: 0.129719 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004145 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/cs210student/Documents/Mercedes_3/2023-Mercedes3/TestRoutesAndNavigation/Test_Navigation/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/cs210student/Documents/Mercedes_3/2023-Mercedes3/TestRoutesAndNavigation/Test_Navigation/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Native extension for iOS target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[ARLocation]: Starting up!
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:13)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:126)
-
-(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 13)
-
-[ARLocation]: Resource folder already exists!
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:17)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:126)
-
-(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 17)
-
-[ARLocation]: Config already exists!
-UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/build/output/unity/unity/Runtime/Export/Scripting/StackTrace.cs:37)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-ARLocationEditorConfigManager:.cctor () (at Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs:29)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:126)
-
-(Filename: Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs Line: 29)
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.135 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1135ms)
-		BeginReloadAssembly (141ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (57ms)
-		EndReloadAssembly (899ms)
-			LoadAssemblies (66ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (335ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (387ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (23ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (69ms)
-				ProcessInitializeOnLoadAttributes (269ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.16 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4336 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 58 unused Assets / (0.7 MB). Loaded Objects now: 4820.
-Memory consumption went from 155.1 MB to 154.4 MB.
-Total: 3.643530 ms (FindLiveObjects: 0.299650 ms CreateObjectMapping: 0.280152 ms MarkObjects: 2.689416 ms  DeleteObjects: 0.373419 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-[usbmuxd] Detached: 42 00008030-001809203630802E
-[usbmuxd] Attached: 43 00008030-001809203630802E
-[usbmuxd] Detached: 43 00008030-001809203630802E
-[usbmuxd] Attached: 44 00008030-001809203630802E
-[usbmuxd] Detached: 44 00008030-001809203630802E
-[usbmuxd] Attached: 45 00008020-00011C6926E9002E
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/ARLocation/Mapbox Routes/Prefabs/SignPost_Small_Map_Pin.prefab
+  artifactKey: Guid(154e5264001534d7999c9720b114562d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARLocation/Mapbox Routes/Prefabs/SignPost_Small_Map_Pin.prefab using Guid(154e5264001534d7999c9720b114562d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a789a7d48eab59c66e133c9f952d315') in 0.025193 seconds 
+[usbmuxd] Detached: 55 00008020-00011C6926E9002E

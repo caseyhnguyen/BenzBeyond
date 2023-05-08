@@ -804,8 +804,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Settings:
-    LineMaterial: {fileID: 2100000, guid: 972d65b3365e8da45aa7abe44e2847b5, type: 2}
-    TextureOffsetFactor: -4
+    LineMaterial: {fileID: 2100000, guid: 697c3d00ed75e4c388f1112e6817fa65, type: 2}
+    TextureOffsetFactor: 0
 --- !u!114 &1900725529
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -828,10 +828,10 @@ MonoBehaviour:
     RouteSettings:
       RouteType: 1
       From:
-        Type: 1
+        Type: 0
         Location:
-          Latitude: 37.42990183260979
-          Longitude: -122.17298618456164
+          Latitude: 37.42994838343763
+          Longitude: -122.17318939692129
           Altitude: 0
           AltitudeMode: 0
           Label: straight
@@ -839,13 +839,13 @@ MonoBehaviour:
       To:
         Type: 1
         Location:
-          Latitude: 37.42898099474618
-          Longitude: -122.16975556624936
+          Latitude: 37.42994838343763
+          Longitude: -122.17318939692129
           Altitude: 0
           AltitudeMode: 0
           Label: straight
         Query: 
-      CustomRoute: {fileID: 11400000, guid: 62e3fa9ed5a3f42eeacc0c18d4adb8cf, type: 2}
+      CustomRoute: {fileID: 11400000, guid: 76d26da6ecdb7442d9b3fa8a3cd3624e, type: 2}
     LoadRouteAtStartup: 1
     GroundHeight: 1.4
     OnMapboxRouteLoadError:
