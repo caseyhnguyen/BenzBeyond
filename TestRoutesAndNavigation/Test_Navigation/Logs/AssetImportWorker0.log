@@ -414,6 +414,7 @@ Received Import Request.
   path: Assets/ARLocation/Mapbox Routes/Prefabs/SignMeshPrefab.prefab
   artifactKey: Guid(b84ceac3303274827bb49595b0dd5f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/ARLocation/Mapbox Routes/Prefabs/SignMeshPrefab.prefab using Guid(b84ceac3303274827bb49595b0dd5f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2d23a8bf8d4af97674880276a3b2c65') in 0.016849 seconds 
+<<<<<<< HEAD
 ========================================================================
 Received Import Request.
   Time since last request: 0.000103 seconds.
@@ -1883,3 +1884,12 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+=======
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/ARLocation/Mapbox Routes/Prefabs/SignPost_Small_Map_Pin.prefab
+  artifactKey: Guid(154e5264001534d7999c9720b114562d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARLocation/Mapbox Routes/Prefabs/SignPost_Small_Map_Pin.prefab using Guid(154e5264001534d7999c9720b114562d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a789a7d48eab59c66e133c9f952d315') in 0.025193 seconds 
+[usbmuxd] Detached: 55 00008020-00011C6926E9002E
+>>>>>>> ffa2836ab277cd8792c0f5c41d3bd8019b148f7f
