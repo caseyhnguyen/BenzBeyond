@@ -804,11 +804,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Settings:
-<<<<<<< HEAD
     LineMaterial: {fileID: 2100000, guid: 584767ad3e325469293fac83af692907, type: 2}
-=======
-    LineMaterial: {fileID: 2100000, guid: 697c3d00ed75e4c388f1112e6817fa65, type: 2}
->>>>>>> ffa2836ab277cd8792c0f5c41d3bd8019b148f7f
     TextureOffsetFactor: 0
 --- !u!114 &1900725529
 MonoBehaviour:
@@ -849,11 +845,7 @@ MonoBehaviour:
           AltitudeMode: 0
           Label: straight
         Query: 
-<<<<<<< HEAD
       CustomRoute: {fileID: 11400000, guid: 81232ff07de324dfcada28a5cdb84edd, type: 2}
-=======
-      CustomRoute: {fileID: 11400000, guid: 76d26da6ecdb7442d9b3fa8a3cd3624e, type: 2}
->>>>>>> ffa2836ab277cd8792c0f5c41d3bd8019b148f7f
     LoadRouteAtStartup: 1
     GroundHeight: 1.4
     OnMapboxRouteLoadError:

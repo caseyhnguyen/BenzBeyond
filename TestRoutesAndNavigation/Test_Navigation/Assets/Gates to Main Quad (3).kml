@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
-	<name>ShortPath</name>
-	<gx:CascadingStyle kml:id="__managed_style_2690D66CBF291DF03D08">
+	<name>Gates to Main Quad</name>
+	<gx:CascadingStyle kml:id="__managed_style_2D23FC26D42913C37207">
 		<Style>
 			<IconStyle>
 				<scale>1.2</scale>
@@ -25,7 +25,7 @@
 			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
-	<gx:CascadingStyle kml:id="__managed_style_1A5F61DBD7291DF03D08">
+	<gx:CascadingStyle kml:id="__managed_style_16CA1062922913C37207">
 		<Style>
 			<IconStyle>
 				<Icon>
@@ -47,32 +47,32 @@
 			</BalloonStyle>
 		</Style>
 	</gx:CascadingStyle>
-	<StyleMap id="__managed_style_0D4FB23CF7291DF03D08">
+	<StyleMap id="__managed_style_03DB8DBF9D2913C37207">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#__managed_style_1A5F61DBD7291DF03D08</styleUrl>
+			<styleUrl>#__managed_style_16CA1062922913C37207</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#__managed_style_2690D66CBF291DF03D08</styleUrl>
+			<styleUrl>#__managed_style_2D23FC26D42913C37207</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Placemark id="0EECB4A353291DF03D07">
-		<name>New Path</name>
+	<Placemark id="076769DC3E2913C37207">
+		<name>Gates to main quad</name>
 		<LookAt>
-			<longitude>-122.1728614153974</longitude>
-			<latitude>37.43001798935903</latitude>
-			<altitude>26.38393584725523</altitude>
+			<longitude>-122.1704682461974</longitude>
+			<latitude>37.42863106378826</latitude>
+			<altitude>42.19841438477354</altitude>
 			<heading>0</heading>
 			<tilt>0</tilt>
 			<gx:fovy>35</gx:fovy>
-			<range>284.1737547135199</range>
+			<range>1028.867264008586</range>
 			<altitudeMode>absolute</altitudeMode>
 		</LookAt>
-		<styleUrl>#__managed_style_0D4FB23CF7291DF03D08</styleUrl>
+		<styleUrl>#__managed_style_03DB8DBF9D2913C37207</styleUrl>
 		<LineString>
 			<coordinates>
-				-122.1731440434154,37.42990629816772,26.363174310334 -122.1730370605727,37.42985131307178,26.47282486912213 -122.1729350149841,37.42982627896083,26.22214270302705 -122.1729267690005,37.42975240022607,26.19080743226516 -122.1728889698857,37.42970218520922,26.17513979688421 -122.172806824058,37.42968249554484,26.15947216150328 -122.1727523109743,37.42967062482548,26.09680161997951 -122.172703335042,37.42966101369336,25.97146053693197 -122.1726466391775,37.42964800039685,26.71748407134286 -122.1726206551144,37.42964356145867,26.31158140067564 -122.172504640661,37.42962089895187,25.90567873000842 
+				-122.1729557382566,37.42995778831939,26.20867217129182 -122.1730136401193,37.42975286011051,26.48852811849754 -122.1729293453685,37.42965463429452,26.60780929518879 -122.1725294272198,37.42957970655448,26.32099216453454 -122.1720125245577,37.42946709577044,25.80393040000317 -122.1716070848634,37.42939178907605,25.59051427069169 -122.1712898948448,37.42933306603754,25.77359851627384 -122.1705239068751,37.42915627147025,25.77391149732945 -122.1697381462253,37.42897944805547,25.82939526230875 -122.16969876118,37.42913550390981,25.70073241188095 
 			</coordinates>
 		</LineString>
 	</Placemark>

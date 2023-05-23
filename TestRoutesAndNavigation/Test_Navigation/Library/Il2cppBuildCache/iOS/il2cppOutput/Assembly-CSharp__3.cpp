@@ -21029,17 +21029,10 @@ IL2CPP_EXTERN_C void MachineState_t7503B34469259DB2DB7C0D7041AB3F51764F82F1_mars
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SignSettingsData__ctor_mE2FC5B95CF96A3015F5EEB8E400BD2CB18CBC312 (SignSettingsData_t77F3C9E93B5CB237A5B1C2E1E41F937567DAFABF* __this, const RuntimeMethod* method) 
 {
 	{
-<<<<<<< HEAD
 		// public float Height = 1;
 		__this->___Height_3 = (1.0f);
 		// public float FollowDistance = 20;
 		__this->___FollowDistance_4 = (20.0f);
-=======
-		// public float Height = 2;
-		__this->___Height_3 = (2.0f);
-		// public float FollowDistance = 10;
-		__this->___FollowDistance_4 = (10.0f);
->>>>>>> ffa2836ab277cd8792c0f5c41d3bd8019b148f7f
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
 		return;
 	}
