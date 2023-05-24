@@ -845,7 +845,7 @@ MonoBehaviour:
           AltitudeMode: 0
           Label: straight
         Query: 
-      CustomRoute: {fileID: 11400000, guid: 81232ff07de324dfcada28a5cdb84edd, type: 2}
+      CustomRoute: {fileID: 11400000, guid: 12bddcbf2eb3145c184f584bafa8f7e2, type: 2}
     LoadRouteAtStartup: 1
     GroundHeight: 1.4
     OnMapboxRouteLoadError:

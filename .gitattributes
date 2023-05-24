@@ -4,3 +4,5 @@ TestRoutesAndNavigation/iOS_Develop_Nav/Libraries/libiPhone-lib.a filter=lfs dif
 TestRoutesAndNavigation/Test_Navigation/Library/Artifact filter=lfs diff=lfs merge=lfs -text
 TestRoutesAndNavigation/Test_Navigation/Library/ArtifactDB filter=lfs diff=lfs merge=lfs -text
 TestRoutesAndNavigation/ios_test2/Libraries/libiPhone-lib.a filter=lfs diff=lfs merge=lfs -text
+TestRoutesAndNavigation/DrivingDemo_SoftwareFair_ios/Libraries/libiPhone-lib.a filter=lfs diff=lfs merge=lfs -text
+TestRoutesAndNavigation/SoftwareFairWalk_ios/Libraries/libiPhone-lib.a filter=lfs diff=lfs merge=lfs -text

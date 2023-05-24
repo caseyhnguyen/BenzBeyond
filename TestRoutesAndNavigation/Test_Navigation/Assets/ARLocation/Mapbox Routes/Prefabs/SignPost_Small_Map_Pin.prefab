@@ -51,11 +51,11 @@ MonoBehaviour:
     Container: {fileID: 5929591857152066984}
     DirectionLabel: {fileID: 5674453178547898602}
     DistanceLabel: {fileID: 8626940530219562156}
-    Height: 0.5
-    FollowDistance: 20
+    Height: 1.5
+    FollowDistance: 40
   DirectionArrowSettings:
     Container: {fileID: 5620263263100678013}
-    DropDistance: 20
+    DropDistance: 4
     DropDuration: 2
     HideArrowOnNextTarget: 0
   FinishSignSettings:
@@ -64,7 +64,7 @@ MonoBehaviour:
     DropDuration: 1.5
     DropHeight: 3.4
   OtherSettings:
-    DeactivationDistance: 15
+    DeactivationDistance: 4
 --- !u!1 &3326400104748834274
 GameObject:
   m_ObjectHideFlags: 0
